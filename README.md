@@ -22,18 +22,22 @@ This is my RICE.
 	cp -r fonts/fontconfig/ ~/.config/
 	cp fonts/local.conf /etc/fonts/ 
 	```
-7. Install zsh shell.
-8. Install [OH-MY-ZSH](https://ohmyz.sh/).
-9. Install [Starship](https://starship.rs/) prompot.
-10. Copy .zshrc config file into home directory:
+7. To force your flatpak apps to use your fonts configurations, run this scipt:
+	``` bash
+	./fonts/flatpak.sh
+	```
+8. Install zsh shell.
+9. Install [OH-MY-ZSH](https://ohmyz.sh/).
+10. Install [Starship](https://starship.rs/) prompot.
+11. Copy .zshrc config file into home directory:
  	``` bash
 	cp ./.zshrc ~/
 	```
-11. Install [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions).
-12. Install [wezterm](https://wezterm.org/).
-13. Copy .wezterm.lua config file into your home directory:
+12. Install [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions).
+13. Install [wezterm](https://wezterm.org/).
+14. Copy .wezterm.lua config file into your home directory:
 	``` bash
 	cp ./.wezterm.lua ~/
 	```
-
-
+15. Install [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) icons.
+16. Install [Papirus Folders](https://github.com/PapirusDevelopmentTeam/papirus-folders). 
