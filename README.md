@@ -29,11 +29,11 @@ This is my RICE.
  	``` bash
 	cp ./.zshrc ~/
 	```
-11. Install [wezterm](https://wezterm.org/).
-12. Copy .wezterm.lua config file into your home directory:
+11. Install [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions).
+12. Install [wezterm](https://wezterm.org/).
+13. Copy .wezterm.lua config file into your home directory:
 	``` bash
 	cp ./.wezterm.lua ~/
 	```
-
 
 
