@@ -10,13 +10,14 @@ local config = wezterm.config_builder()
 config.initial_cols = 120
 config.initial_rows = 28
 config.hide_tab_bar_if_only_one_tab = true
+config.window_background_opacity = 0.85
 
 -- or, changing the font size and color scheme.
-config.font_size = 13
+config.font_size = 16
 config.font =
-  wezterm.font('Fira Code', { weight = 'Bold'})
+  wezterm.font('JetBrainsMono Nerd Font', { weight = 'Medium'})
 
-config.color_scheme = 'Catppuccin Mocha'
-
+--config.color_scheme = 'Everforest Dark (Gogh)'
+config.color_scheme = 'Rosé Pine Moon (Gogh)'
 -- Finally, return the configuration to wezterm:
 return config
