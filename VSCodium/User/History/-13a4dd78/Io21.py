@@ -1,0 +1,27 @@
+import re
+import sys
+
+
+def main():
+    print(convert(input("Hours: ")))
+
+
+def convert(s):
+    matches = re.match(r"^(\d\d?)(:\d\d)? (AM|PM) to (\d\d?)(:\d\d)? (AM|PM)$", s)
+    if matches:
+        start = {
+            "hour": convert_hour(matches.group(1), matches.group(3))
+        }
+def convert_hour(hour, time)
+    hour = int(hour)
+    if hour > 12:
+        raise ValueError
+    if time == 'AM':
+        return hour
+    else:
+        return {hour + 12}
+...
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,8 @@
+{
+    "editor.fontFamily": "'JetBrains Mono', 'JetBrainsMono Nerd Font'",
+    "editor.fontSize": 24,
+    "files.autoSave": "afterDelay",
+    "editor.fontLigatures": true,
+    "editor.mouseWheelZoom": true,
+    "workbench.colorTheme": "Rosé Pine Moon"
+}
