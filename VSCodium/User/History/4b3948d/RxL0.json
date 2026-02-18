@@ -1,8 +1,0 @@
-{
-    "editor.fontFamily": "'JetBrains Mono', monospace",
-    "editor.fontSize": 20,
-    "files.autoSave": "afterDelay",
-    "editor.fontLigatures": true,
-    "editor.mouseWheelZoom": true,
-    "workbench.colorTheme": "Rosé Pine Moon"
-}
